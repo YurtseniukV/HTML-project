@@ -15,9 +15,9 @@
             flex-direction: column;
         }
 
-        h1{
-            margin: 5px 0 50px 0;
-        }
+        /*h1{*/
+        /*    margin: 5px 0 50px 0;*/
+        /*}*/
         a{
             color: white;
             background-color: black;
@@ -36,6 +36,7 @@
                    font-optical-sizing: auto;
                    font-weight: 500;
             font-size: 25px;
+            margin-top: 0;
                }
         .lora2{
             font-family: "Lora", serif;
@@ -56,12 +57,17 @@
             align-items: center;
 
         }
+        /*.text-block{*/
+        /*    display: flex;*/
+        /*    flex-direction: column;*/
+        /*    justify-content: space-evenly;*/
+        /*}*/
         .blue{
             width: 300px;
             height: 200px;
             background-color: #699BF7;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: flex-start;
             flex-direction: column;
             padding-left: 20px;
@@ -87,7 +93,7 @@
             height: 200px;
             background-color: #FFC700;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: flex-start;
             flex-direction: column;
             padding-left: 20px;
@@ -100,7 +106,7 @@
             height: 200px;
             background-color: #FF8577;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: flex-start;
             flex-direction: column;
             padding-left: 20px;
@@ -115,25 +121,25 @@
 <div class="container">
 <div class="box">
     <div class="blue">
-        <h3 class="lora">Tutorial video</h3>
-        <h1 class="lora1">Dev Mode tutorial</h1>
+        <div class="text-block"><h3 class="lora">Tutorial video</h3>
+            <h1 class="lora1">Dev Mode tutorial</h1></div>
         <a class="link1 lora2" href="https://dou.ua/forums/blogs/?from=forcol">Watch the video</a>
     </div>
     <div class="violet">
-        <h3 class="lora">Blog post</h3>
-        <h1 class="lora1">Making Figma better for developers</h1>
+        <div class="text-block"><h3 class="lora">Blog post</h3>
+        <h1 class="lora1">Making Figma better for developers</h1></div>
         <a class="link2 lora2" href="https://dou.ua/forums/blogs/?from=forcol">Go to the blog</a>
     </div>
     </div>
     <div class="box2">
     <div class="yellow">
-        <h3 class="lora">Help center</h3>
-        <h1 class="lora1">Guide to Dev Mode</h1>
+        <div class="text-block"><h3 class="lora">Help center</h3>
+            <h1 class="lora1">Guide to Dev Mode</h1></div>
         <a class="link3 lora2" href="https://dou.ua/forums/blogs/?from=forcol">Read the article</a>
     </div>
     <div class="pink">
-        <h3 class="lora">Playground</h3>
-        <h1 class="lora1">Prototype with variables</h1>
+        <div class="text-block"><h3 class="lora">Playground</h3>
+        <h1 class="lora1">Prototype with variables</h1></div>
         <a class="link4 lora2" href="https://dou.ua/forums/blogs/?from=forcol"> Go to the playground</a>
     </div>
         </div>

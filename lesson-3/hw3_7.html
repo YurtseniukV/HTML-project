@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        #pink {
+            background-color: lightpink;
+        }
+
+        #blue {
+            background-color: lightskyblue;
+        }
+
+        #green {
+            background-color: lightgreen;
+        }
+
+        .text {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            width: 50vw;
+        }
+
+        a {
+            font-size: 35px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<section id="pink">
+    <div class="text">
+        <h2>Section Title</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque culpa deleniti, ducimus eius eum ex
+            ipsum magnam, nihil officiis optio quod quos repellat rerum sapiente temporibus tenetur ut vel.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae cupiditate deserunt excepturi fugiat
+            molestiae obcaecati provident similique! Ab consectetur consequatur debitis fugit inventore optio ullam vel
+            veritatis vero voluptate?</p>
+
+    <a href="#blue">&#9660;</a>
+    </div>
+</section>
+<section id="blue">
+
+    <div class="text">
+        <a href="#pink">&#9650;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad hic illum non sed? Accusantium beatae, deserunt
+            excepturi maiores natus nesciunt nobis odio optio reprehenderit. Consequatur dolorum fugiat nisi quaerat
+            voluptatem?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores et excepturi hic libero natus praesentium
+            quis ratione reprehenderit ullam voluptatum. Fuga laborum modi rerum sint? Accusantium dolorem hic inventore
+            odit?</p>
+        <a href="#green">&#9660;</a>
+    </div>
+
+</section>
+<section id="green">
+
+    <div class="text">
+        <a href="#blue">&#9650;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa cupiditate debitis distinctio dolorum eum
+            excepturi minima, molestias nam nihil nulla odit optio porro possimus ratione rerum sint sit veniam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium assumenda dolore ea esse
+            illum ipsa, iste iure iusto natus nemo nisi non odio pariatur quae temporibus veritatis voluptas,
+            voluptates!</p>
+    </div>
+</section>
+</body>
+</html>

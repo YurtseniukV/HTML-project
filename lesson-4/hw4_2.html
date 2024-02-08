@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        section {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .block-1 {
+            height: 500px;
+            width: 400px;
+            background-color: white;
+            border: 1px solid silver;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        img{
+            height: 100px;
+            width: 300px;
+        }
+
+        input {
+            display: block;
+            margin: 15px;
+            padding-left: 5px;
+            height: 50px;
+            width: 300px;
+            background-color: whitesmoke;
+            border: none;
+            outline: 2px solid lightgrey;
+border-radius: 6px;
+            text-overflow: ellipsis;
+        }
+        ::placeholder{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+
+        }
+        button{
+            height: 40px;
+            width: 300px;
+            border-radius: 15px;
+            background-color: #699BF7;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            border: none;
+            box-shadow: 2px 4px 13px 0 rgba(20,7,36,0.75);
+        }
+h3,a{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+}
+h3{
+    color: #4E4949;
+}
+#facebook{
+    height: 35px;
+    width: 35px;
+}
+        .login-facebook{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+        a{
+            text-decoration: none;
+        }
+        .block-1 a{
+            color: #264969;
+        }
+        .facebook{
+            font-size: 18px;
+        }
+        .password{
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .block-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            border: 1px solid silver;
+            margin-top: 25px;
+
+        }
+.block-2 p,a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.block-2 a{
+    color: #699BF7;
+    font-weight: 600;
+}
+    </style>
+</head>
+<body>
+<section>
+    <div class="block-1">
+        <img src="Group%201.png" alt="">
+        <label>
+            <input type="text" name="username" placeholder="Номер телефону,ім'я користувача або електронна адреса">
+            <input type="password" name="password" placeholder="Пароль">
+        </label>
+        <button>Увійти</button>
+        <h3>АБО</h3>
+        <div class="login-facebook">
+        <img id="facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADQUlEQVR4nO2Zz28SQRTHN8EEf6Y20XLxZKIXrT+qXP0b9KT9D7z6L5h40Si2vdnQErCxDQKJ1UtTTo3xpim0qYomVcsurOmCLKXAAs+8iRiEBWZ2ZqGb+E1eQsIw+z6zM++9eUjgcEngcEngcEngcEngcEmiJlrfrcKThA63VzW4ElHhVFCBw36ZGH6+GlHJd76kTsYeCIBCtQGPEzpcDGfBNZtmsvFwlgDr1cbgAYw6kJU8HVSYHW+3saACT5NFMudAALZyBkxEVW7H2+1aVIWPecNegFfb+zASkIU77/pjJwMyLH/btwcglCqB22+P464Ww2c8T5XEAuDKD8J5VwvEa8o30Rfgc94gr5bXqePzMpxfyoI3psKFcBbOLWZ6bkf8Ds8bFwBGBp4De2g2DZNxDdaUClTr5uHy5spu199fj6l9o1NPAAyVVp3HBLb0tf9evtUDAG0qWbQGUDQa4AlZj/MP1/W+ztMAYJ7AhMkMgBnWqvNnFjJQ6bJlWAFcs2mSsZkBrJQHTbv3Lm86Z65ShwcfCnB3LffXzr7IUJUdTABYbPFEnMUv5nv/xvJPy3NuaAY9AM/2QXubqXTMmeRclKkuh9kUAMtenoeZrdZCqsQ152Rcowe4HOEr1swS0MxGkWvOiahKD4ChSzTANCeAJ6TQAxzxywcO4OicbA/A/fcF0Mr1f6xmkgLKtUbHOK1ch0svs+IBWLbQI8qMa6YGAJyYl8VvIZZDzAOwrdfsOcQsYZQHYGWnbE8YxdpjEADTDAcbx1IDJBiyJl5UsO/TangJatezrb2Occfm6IPFJkspgaKNDoMIo+OsxRzrNrIbwJfUB3uhEQkwFlR6du96XimxYzZsgJkuh5cKAC/U2DEbFoA3pppmdWoAVOqXAaOMbRURACMi2ipNYbuPpbHFC+D2p+HNd0GNraaw3UcLwQPg9qfJ5ceW5i62+2i6dFYBRgMy9cpbAkB9yhukYyYawBtTTTO4cIBmdMJLdreymwXAE1JIqOwXbYQCNIUJBjP2eFvZQQOApYovOaS/mMyExRa+lTtxDVbTZfhRrMGe0SC2U6wRACyJccwmRXik1f+/WYctCRwuCRwuadgO8Oo3pZ2pxuK2WgEAAAAASUVORK5CYII=" alt="">
+        <a class="facebook" href="#">Увійти через фейсбук</a></div>
+        <a class="password" href="#">Забули пароль?</a>
+    </div>
+    <div class="block-2">
+        <p>Не маєте облікового запису?  <a href="#">Зареєструйтеся</a></p>
+    </div>
+</section>
+</body>
+</html>

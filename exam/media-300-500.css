@@ -1,0 +1,49 @@
+/*@media screen and (min-width: 300px) and (max-width: 500px){*/
+/*body{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 5px;*/
+/*    font-size: 20px;*/
+/*}*/
+/*    body>div.logo{*/
+/*            display: inline-block;*/
+/*            justify-content: center;*/
+/*            align-items: center;*/
+/*            width: 30vw;*/
+/*            height: 10vh;*/
+/*    }*/
+/*    header{*/
+/*    height: 10vh;*/
+/*    width: 40vw;*/
+/*}*/
+/*    header>div.logo,*/
+/*    .navbar,*/
+/*    header > button{*/
+/*        display: none;*/
+/*    }*/
+/*    main{*/
+/*        height: 70vh;*/
+/*        width: 90vw;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    main > div{*/
+/*        height: 40vh;*/
+/*        width: 80vw;*/
+/*    }*/
+/*    main > div > h1{*/
+/*        margin: 0;*/
+/*        font-size: 3em;*/
+/*    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*}*/

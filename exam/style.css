@@ -88,7 +88,7 @@ main > div {
 main > div > h1 {
     color: #FFF;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 400;
     line-height: 84px; /* 105% */
     margin: 0 0 20px 0;
@@ -133,7 +133,7 @@ section {
 
 section.page-2 > div.content-page-2 {
     height: 10vh;
-    width: 80vw;
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@ section.page-2 > div.content-page-2 {
 section.page-2 > div.content-page-2 > h2 {
     color: #FFF;
     font-family: Lato;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
     line-height: 70px; /* 116.667% */
     margin: 0 25px 0 0;
@@ -160,7 +160,7 @@ section.page-2 > div.content-page-2 > p {
 }
 
 section.page-2 > img {
-    height: 60vh;
+    height: 65vh;
     width: 70vw;
 }
 
@@ -179,24 +179,24 @@ section.page-3 > h3 {
     color: #FFF;
     text-align: center;
     font-family: Lato;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 70px; /* 116.667% */
     margin: 50px 0 40px 0;
 }
 
 section.page-3 > div.block {
-    height: 60vh;
+    height: 70vh;
     width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .block-1, .block-2 {
-    height: 50%;
+    height: 43%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +206,7 @@ block-2 {
 }
 
 .item {
-    height: 20vh;
+    height: 90%;
     width: 22vw;
     display: flex;
     justify-content: center;
@@ -220,14 +220,14 @@ block-2 {
 
 section.page-3 > div.block > div.block-2 > div.item > img,
 section.page-3 > div.block > div.block-1 > div.item > img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin-bottom: 15px;
 }
 
 section.page-3 > div.block > div.block-1 > div.item > h5,
 section.page-3 > div.block > div.block-2 > div.item > h5 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: -0.75px;
     margin: 0;
@@ -236,7 +236,7 @@ section.page-3 > div.block > div.block-2 > div.item > h5 {
 section.page-3 > div.block > div.block-1 > div.item > p,
 section.page-3 > div.block > div.block-2 > div.item > p {
     color: rgba(255, 255, 255, 0.70);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px; /* 140% */
     letter-spacing: -0.5px;
@@ -263,7 +263,8 @@ section.page-4 > div.content-page-4 > h3 {
     font-size: 58px;
     font-weight: 800;
     margin-left: -400px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    margin-top: 0;
 }
 
 section.page-4 > div.content-page-4 > div {
@@ -272,8 +273,8 @@ section.page-4 > div.content-page-4 > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 0;
+    margin-bottom: 150px;
 }
 
 section.page-4 > div.content-page-4 > div > img {

@@ -201,8 +201,8 @@ section.page-3 > div.block {
     justify-content: center;
     align-items: center;
 }
-block-2 {
-    margin-top: 20px;
+.block-2 {
+    margin-top: 10px;
 }
 
 .item {
